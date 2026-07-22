@@ -4,8 +4,9 @@ Taller de bienvenida del grupo MoleQLs sobre el **Variational Quantum Eigensolve
 
 ## Contenido del repositorio
 
-- [`clase_vqe_fundamentos.pdf`](clase_vqe_fundamentos.pdf) — apunte teórico: el Hamiltoniano como operador de energía, el principio variacional, y cómo parametrizar un estado.
-- [`cuadernillo_vqe.ipynb`](cuadernillo_vqe.ipynb) — cuadernillo práctico en Qiskit que acompaña la teoría: construcción del Hamiltoniano, ansatz parametrizado, optimización clásica y entrelazamiento.
+- `Fundamentos del VQE/`
+  - [`clase_vqe_fundamentos.pdf`](<Fundamentos del VQE/clase_vqe_fundamentos.pdf>) — apunte teórico: el Hamiltoniano como operador de energía, el principio variacional, y cómo parametrizar un estado.
+  - [`cuadernillo_vqe.ipynb`](<Fundamentos del VQE/cuadernillo_vqe.ipynb>) — cuadernillo práctico en Qiskit que acompaña la teoría: construcción del Hamiltoniano, ansatz parametrizado, optimización clásica y entrelazamiento.
 - [`requirements.txt`](requirements.txt) — dependencias de Python necesarias para correr el cuadernillo.
 
 ## Instalación
@@ -63,7 +64,7 @@ Esto instala `numpy`, `scipy`, `qiskit` (con sus herramientas de visualización)
 Con el entorno activado, abre Jupyter:
 
 ```bash
-jupyter notebook cuadernillo_vqe.ipynb
+jupyter notebook "Fundamentos del VQE/cuadernillo_vqe.ipynb"
 ```
 
 (o `jupyter lab` si prefieres esa interfaz). Las celdas de código se apoyan en las anteriores, así que conviene ejecutarlas en orden dentro de cada sección en vez de saltarse celdas.
