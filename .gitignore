@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Archivos auxiliares de LaTeX
+*.aux
+*.log
+*.out
+*.toc
